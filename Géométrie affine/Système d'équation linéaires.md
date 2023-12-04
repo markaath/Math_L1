@@ -1,0 +1,3 @@
+Soit $(S)$ le système suivant : $$(S) : \begin{cases}a_{11}x_1+a_{12}x_2+a_{13}x_3+a_{14}x_4 = b_1 \\ a_{21}x_1+a_{22}x_2+a_{23}x_3+a_{24}x_4 =b_2\\a_{31}x_1+a_{32}x_2+a_{33}x_3+a_{34}x_4 =b_3\end{cases}$$
+ 
+$(S)$ peut se réécrire sous forme de matrice de la façon suivante : $$\begin{pmatrix} a_{11} &a_{12}&a_{13}&a_{14}&\biggl|b_1 \\ a_{21} &a_{22}&a_{23}&a_{24}&\biggl|b_2 \\ a_{31} &a_{32}&a_{33}&a_{34}&\biggl|b_3 \end{pmatrix} = \begin{pmatrix}A |B\end{pmatrix}$$Le système $(SH) = (A|0_{13})$ est le système homogène associé à $(S)$.
