@@ -39,15 +39,22 @@ $f : A \longrightarrow B$ est une loi qui $\forall x \in A$ associe au plus un �
 
 Si à $x \in A$, $f$ associe $y\in B$ on note $f(x)=y$ et$\underset{\qquad\quad x \;\;\longmapsto\; y = f(x)}{f : A \longrightarrow B}$ 
 
-
-
-
-
-
-
 **Définition** : 
 Soit $f : A \longrightarrow B$ une fonction.
 - $f$ est une application si $\mathcal D_f = A$
 - $f$ est injective si $\forall (x,y) \in \mathcal D_f f(x)=f(y) \Rightarrow x=y$
 - $f$ est surjective si $\mathcal I_f = B$ 
 - $f$ est bijective $\Leftrightarrow$ $f$ est injective $\land$ $f$ surjective 
+
+**Définition** :
+Soient $f : A  \longrightarrow B$ une fonction, $x \in A, y \in B : f(x) = y, A_0 \subseteq A, B_0 \subseteq B$.
+- $x$ est un antécédent de $y$ par $f$, $y$ est l'image de $x$ par $f$
+- $f(A_0) = \{y\in B : \exists A_0 : f(x) = y\} \subseteq \mathcal I_f$ est l'image direct de $A_0$ par $f$
+- $f^{-1}(B_0) = \{x \in \mathcal D_f : f(x) \in B_0\} \subseteq \mathcal D_f$ est l'image réciproque de $B_0$ par $f$
+
+<u>Composition</u> :
+Soient $f : A \longrightarrow B,\; g: C \longrightarrow D$ avec $A,B,C,D$ des ensembles et $f,g$  des fonctions.
+
+$\mathcal D_{g\circ f} = \{x \in \mathcal D_f : f(x) \in \mathcal D_g\}$ 
+$g\circ f$ est définie si $f^{-1}(\mathcal D_g \neq \emptyset$. Dans ce cas, $\forall x \in f^{-1}(\mathcal D_g)$, on a : $g\circ f(x) = g(f(x))$
+
