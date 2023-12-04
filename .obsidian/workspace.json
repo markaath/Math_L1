@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "53abe5903d69ce27",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e9df7789520cedf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dbf1ebbd9e772e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sommaires/Géométrie affine, sommaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86f392f746812b55",
+    "type": "split",
+    "children": [
+      {
+        "id": "56356347ff8f7c10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4a0c6869f19a851",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "db7163fa887d0b49",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb7dd679e274b1ca",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5086555480957
+  },
+  "right": {
+    "id": "9cad5ce16e1e4007",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f53cb32f33074f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c7ad027cc667712",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sommaires/Géométrie affine, sommaire.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "765083c64ac67965",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sommaires/Géométrie affine, sommaire.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "17cb4b63e44cafdd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ae482bad176eea3e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sommaires/Géométrie affine, sommaire.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6dbf1ebbd9e772e5",
+  "lastOpenFiles": [
+    "Sommaires/Raisonnement, sommaire.md",
+    "Sommaires/Réels et suites, sommaire.md",
+    "Sommaires/Géométrie affine, sommaire.md",
+    "Raisonnement/Ensembles,fonctions.md",
+    "Raisonnement/Relation.md"
+  ]
+}
