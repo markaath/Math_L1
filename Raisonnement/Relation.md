@@ -85,4 +85,14 @@ $x\mathcal R' y \Longleftrightarrow x \mathcal R y \land x \neq y$
 
 **Définition** : 
 Soit $(E, \succcurlyeq)$ un ensemble ordonné, $S\subseteq E, (a,b) \in E²$.
-On dit que $a$ est un minorant de $S$ si $\forall x \in S, x \succcurlyeq a$ 
+On dit que $a$ est un minorant de $S$ si $\forall x \in S, x \succcurlyeq a$. 
+On dit que $a$ est la borne inférieure de $S$ si $a$ est le plus grand des minorants.
+On dit que $b$ est un majorant de $S$ si $\forall x \in S, b \succcurlyeq x$.
+On dit que $b$ est la borne supérieure de $S$ si $b$ est le plus petit des majorants.
+Si $S = \{c,d\}$ alors on note $c\land d = inf\{c,d\}$ et $c\lor d = sup\{c,d\}$
+
+**Définition** : 
+Soient $(E, \ge)$ et $(E', \succcurlyeq)$ des ensembles ordonnés et $F : E \longrightarrow E'$ une application.
+$F$ est $\nearrow$ si $\forall (x,y) \in E², (y > x \Rightarrow F(y) \succcurlyeq F(x))$.
+
+
