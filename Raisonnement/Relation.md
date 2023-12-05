@@ -73,3 +73,16 @@ $\Rightarrow \bar{x} \cap \bar{y}$
 Par contraposée, on a $\lnot (\bar{x}\cap\bar{y}=\emptyset) \Rightarrow \bar{x}=\bar{y}$
 
 3) Soit $(\overline{x_i})_{i \in [\![1,n]\!]}$ l'ensemble de toutes les classes d'équivalence de $E$ par rapport à $\backsim$. Soit $y\in E : \forall i \in [\![1,n]\!], y \in \overline{x_i}$. Alors $y\in \overline{y} = \{y\}$ et $\bar{y} \in (\overline{x_i})_{i \in [\![1,n]\!]}$ . Absurde.
+
+**Définition** :
+Soit $E$ un ensemble, $\mathcal R \subseteq E²$ une relation d'ordre large (partiel à priori). Souvent on écrit $\mathcal R$ comme $\ge$ ou $\succcurlyeq$. On dit que $E$ muni de $\mathcal R$ est un ensemble ordonné.
+
+<u>Remarque</u> : 
+Si $\mathcal R$ est une relation d'ordre strict, on peut définir $\mathcal R'$ par 
+$x\mathcal R' y \Longleftrightarrow x \mathcal R y \lor x = y$
+Inversement, si $\mathcal R$ est une relation d'ordre large, on peut définir $\mathcal R'$ par
+$x\mathcal R' y \Longleftrightarrow x \mathcal R y \land x \neq y$
+
+**Définition** : 
+Soit $(E, \succcurlyeq)$ un ensemble ordonné, $S\subseteq E, (a,b) \in E²$.
+On dit que $a$ est un minorant de $S$ si $\forall x \in S, x \succcurlyeq a$ 
