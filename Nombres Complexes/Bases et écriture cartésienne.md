@@ -45,12 +45,33 @@ Donc tout nombre complexe différent de $0$ a un inverse multiplicatif.
 
 **Définition** : 
 $\forall z \in \mathbb C, z'\in\mathbb C^*$
-$\dfrac{z}{z'} = \dfrac{z\cdot \bar z'}{|z|²}$ 
+$\dfrac{z}{z'} = \dfrac{z\cdot \overline {z'}}{|z|²}$ 
 
 **Règles de calcul** :
 - $\overline {z_1 + z_2} = \bar z_1 + \bar z_2$ 
 - $\overline {z_1\cdot z_2} = \bar z_1\cdot \bar z_2$ 
 - $|\bar z| = |z|$
 - $|z_1 \cdot z_2| = |z_1|\cdot|z_2|$
+
+**Théorème** : Inégalité triangulaire
+$\forall (z,z')\in\mathbb C², |z+z'| \le |z| +|z'|$ 
+*Preuve* :
+$|z+z'|² = (z+z')(\overline{z+z'})$
+$=z\overline {z} + z\overline {z'}+ z'\overline {z}+z'\overline {z'}$ 
+$=|z|² + |z'|² + z\overline {z'} + z'\overline{z}$
+$=|z|² + |z'|² + \overline{z\overline{z'}} + z\overline{z'}$
+$=|z|² + |z'|² +2Re(z\overline{z'})$
+Or on a $Re(z\overline{z'})\le |z\overline{z'}|$, d'où 
+$|z+z'|² \le |z|² + |z'|² +2|z\overline{z'}| \Longleftrightarrow |z+z'|² |z|² + |z'|² + 2|z||z'|$
+$\Longleftrightarrow |z + z'|² \le (|z|+|z'|)²$
+$\Longleftrightarrow |z+z'| \le |z| + |z'|$
+
+**Corollaire** : 
+En particulier, l'inégalité triangulaire est vraie dans $\mathbb R$ : 
+$\forall (x,y)\in \mathbb R², |x+y| \le |x|+|y|$
+
+
+
+
 
 
