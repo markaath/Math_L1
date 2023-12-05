@@ -58,3 +58,15 @@ Soient $f : A \longrightarrow B,\; g: C \longrightarrow D$ avec $A,B,C,D$ des en
 $\mathcal D_{g\circ f} = \{x \in \mathcal D_f : f(x) \in \mathcal D_g\}$ 
 $g\circ f$ est définie si $f^{-1}(\mathcal D_g \neq \emptyset$. Dans ce cas, $\forall x \in f^{-1}(\mathcal D_g)$, on a : $g\circ f(x) = g(f(x))$
 
+**Définition** : 
+Soit $A$ un ensemble.
+$\underset{\quad x \;\longmapsto\; x}{f : A \longrightarrow A}$ est la fonction identité sur $A$. On la note $$\underset{\quad x \;\longmapsto\; x}{id_A : A \longrightarrow A}$$
+
+**Théorème** :
+Soient $f,g,h$ des fonctions
+- $\circ$ est associatif : $f\circ (g\circ h) = (f\circ g)\circ h$
+- $\underset{\quad x \;\longmapsto\; x}{f : A \longrightarrow B}$ est bijective $\Longleftrightarrow \exists \tilde f : B \longrightarrow A : \tilde f \circ f = id_A \land f\circ\tilde f = id_B$
+
+
+
+
