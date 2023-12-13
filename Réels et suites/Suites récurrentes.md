@@ -6,7 +6,7 @@ Autrement dit :
 - $u_{0}=\alpha$
 - $u_{1}= f(\alpha)$
 - $u_{2}= f\circ f(\alpha)$
-- $u_{n}= f\circ\underset{n fois}{...}\circ f(\alpha)$ 
+- $u_{n}= f\circ\underset{n \;fois}{...}\circ f(\alpha)$ 
 
 <u>Quelques remarques et méthodes</u> :
 Soient $I$ un intervalle et $f:I\longrightarrow I$ une fonction réelle.
