@@ -1,6 +1,6 @@
 
 **Définition** : 
-Soit $p\in\mathbb N : p \ge 2$ On dit que $p$ est premier si les seuls diviseurs positifs de $p$ sont $1$ et $p$. On notera $\mathcal P$ l'ensemble des nombres premiers dans toutes la suite.
+Soit $p\in\mathbb N : p \ge 2$ On dit que $p$ est premier si les seuls diviseurs positifs de $p$ sont $1$ et $p$. On notera $\mathcal P$ l'ensemble des nombres premiers dans toute la suite.
 
 **Lemme** :
 $\forall a\in\mathbb N : a\ge 2, \exists p\in\mathcal P : p|a$

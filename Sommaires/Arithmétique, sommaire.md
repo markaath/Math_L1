@@ -2,3 +2,4 @@
 [[Congruences dans Z]]
 [[PGCD]]
 [[PPCM]]
+[[Equations diophantiennes]]
