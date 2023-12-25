@@ -28,3 +28,19 @@ $\Rightarrow$ :
 Montrons que $(x_1,y_1)$ est solution de $(E)$
 $a'x_1 + b'y_{1}= a'x_{0}+a'kb' + b'y_{0} - b'ka' = a'x_{0} + b'y_{0}$
 Or on a posé $(x_0,y_0)$ solution de $(E)$ donc $a'x_{1}+b'y_{1}=ax_{0}+b'y_{0}=c'$
+$\Leftarrow$ :
+Soit $(x_1,y_1)$ solution quelconque de $(E')$, alors :
+
+$\begin{cases}a'x_0+b'y_{0}=c'\\a'x_{1}+b'y_{1}=c'\end{cases}$
+$\Rightarrow a'(x_{1}-x_0)+b'(y_{1}-y_{0})=0$
+$\Rightarrow b'(y_{0}-y_{1})=a'(x_{1}-x_{0})$ $\quad(*)$
+$\Rightarrow b'|a'(x_{1}-x_{0})$ 
+Or $a'\land b' = 1$ donc $b'|(x_{1}-x_{0})$
+Donc $\exists k \in\mathbb Z : x_{1}-x_{0}=kb' \Rightarrow x_{1}=kb'+x_{0}$
+
+Si $k=0$ alors $x_{1}=x_{0}$ et par $(*)\;y_1=y_0$
+Si $k\neq 0$, on multiplie $(*)$ par $k$ :
+$kb'(y_{0}-y_{1})=ka'(x_{1}-x_{0})$
+$\Rightarrow (y_{0}-y_{1})=ka'$ car $x_1\neq x_0$ 
+$\Rightarrow y_{1}=ka'+y_{0}$
+
